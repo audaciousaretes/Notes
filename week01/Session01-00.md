@@ -9,7 +9,7 @@ As an engineer, you'll have a toolset that you use on a daily basis and that too
 - Package Managers (npm, homebrew)
 - Languages (HTML, CSS, Javascript, Node.js)
 
-In this session we'll setup Atom, learn a little about the command line and 
+In this session we'll setup Atom, learn a little about the command line and
 
 ## Install OS X Yosemite
 
@@ -54,7 +54,7 @@ Download [Google Chrome](https://www.google.com/intl/en/chrome/browser/)
 
 ### NPM
 
-> NPM stands for Node Package Manager and is the javascript package manager we'll be using in class. 
+> NPM stands for Node Package Manager and is the javascript package manager we'll be using in class.
 
 NPM comes bundled with Node.js, so inside of Terminal.app you should be able to type `npm -v` in the terminal and it will output a version number. If this is not the case, please let me know.
 
@@ -65,22 +65,22 @@ NPM comes bundled with Node.js, so inside of Terminal.app you should be able to 
 1. Open up Terminal.app. If you have any trouble here, go through the command-line prework.
 1. Run `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` and follow all the prompts.
 1. Run `brew doctor`
-1. Run `brew install readline git python3 direnv`
+1. Run `brew install readline git`
 
 ## Setup SSH keys
 
-> SSH keys are a way for two computers to communicate with each other securely without having to ask a user for their username and password. 
+> SSH keys are a way for two computers to communicate with each other securely without having to ask a user for their username and password.
 
 Create an SSH key (do not give it a password when it asks for one)
 Run `ssh-keygen` in your terminal.
 
 ## Setup a Github.com account
 
-> We'll be using git heavily for version control as well as submitting homework assignments. github.com is a free platform that hosts your git version controlled codebases. 
+> We'll be using git heavily for version control as well as submitting homework assignments. github.com is a free platform that hosts your git version controlled codebases.
 
 Create an account on [github.com](http://www.github.com) and follow Step 4 for adding your SSH key to your Github account. Let me know your username via slack.
 
-## Learning the Command Line 
+## Learning the Command Line
 `pwd` [present working directory] - to see the full path of what directory you're working out of
 `ls` - Lists the files and directories in your present working directory
 `cd` [change directory] - this command followed by an argument of what directory you want to change into changes your present working directory
