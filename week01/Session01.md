@@ -8,6 +8,8 @@
 - `<body>` is the content of the document.
 - Elements can have attributes as well. Attributes are written inside the
   opening tag of an element, e.g. the 'src' in `<img src="image.jpg">`
+  - The ones you'll use the most are 'src', 'id' and 'class' [reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+  - `id` will always be unique and `class` names you can reuse.
 - Most whitespace (tabs, returns, spaces) is ignored by the browser, but you can
   use it to make your HTML more readable.
 
@@ -123,3 +125,11 @@ a:active {
 - Use a `.` between the element name and the class name to select the elements
   of that tag and class.
 - Use `.classname` to select all elements of that class.
+
+## Bonus Material
+
+This is an _exhaustive_ list of properties you can "tinker" with. Try them out to see
+what they do.
+
+[CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
+[HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
