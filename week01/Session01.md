@@ -100,14 +100,15 @@ a:active {
 
 ## Other Notes
 - CSS can be written inside a `<style>` tag inside the `<head>`, but it's best
-  practice to put CSS in an external file and link to it using `
+  practice to put CSS in an external file and link to it using `<link rel="stylesheet"
+  href="/style.css" />`
 - To select the elements of a certain HTML tag, the selector is just the tag
   name (e.g. `p { }`)
 - Many CSS properties are inherited. For example, if I set `font-size: 62.5%;`
   on the `<body>` element, then all the elements on the page that don't override
   `font-size` will inherit that font size.
 - To find out whether a property is inherited by its children, look up the
-  property on MDN (or Dash.app)
+  property on MDN
 
 ## CSS inheritance and specificity
 - CSS can be overriden by declaring a property farther down the "cascade".
