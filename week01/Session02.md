@@ -30,7 +30,6 @@ Today, we're going to be getting practice with using `git`, `HTML`, `CSS` and le
     - headings
     - lists
 
-
 ## Outcomes
 
 ### Terminal, Git, DevTools (General Tooling)
@@ -52,3 +51,10 @@ Today, we're going to be getting practice with using `git`, `HTML`, `CSS` and le
 
 - You should have a good grasp on the box model
 - You should understand how browser differences can impact your user's experience and how to "normalize it"
+
+# Resources
+
+- [Chrome DevTools Elements Tutorial](http://discover-devtools.codeschool.com/chapters/1?locale=en)
+- [Introduction to the Command Line](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line)
+- [Practice Git with "Try Git"](https://try.github.io/levels/1/challenges/1)
+- [CSS Box Model](https://css-tricks.com/the-css-box-model/)
