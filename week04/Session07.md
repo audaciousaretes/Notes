@@ -187,18 +187,23 @@ x // => 4
 if (true) {
   console.log("this is true!");
 }
+```
 
 ## if / else
 
+```
 if (isTrue) {
   console.log("isTrue is equal to true!");
 } else {
   console.log("isTrue is equal to false!");
 }
+```
 
 ## ternary
 
+```
 var isTrue = 10 > 5 ? "is true!" : "is false!";
+```
 
 # Falsy
 - `""`
