@@ -223,3 +223,15 @@ if(name){
   alert(name);
 }
 ```
+
+# for loop
+
+```
+for (var i = 1; i <= 100; i++) {
+    console.log(i); // i = 1
+}
+```
+
+first expression: initialized variables (var i = 0 to start the loop)
+second expression: conditional to test (is i less than or equal to 100?)
+third expression: code to execute after the loop has been evaluated. In this case, increment i by 1
