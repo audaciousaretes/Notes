@@ -175,3 +175,17 @@ $("#myForm").on("submit", function(e) {
 The first argument is an event (in this case it was "submit") and the second argument is the `callback` to fire when the event fires.
 
 `e.preventDefault()` is a special method on events that will keep them from doing what they would normally do (in this case the page would normally do a hard refresh but won't because we're preventing the default)
+
+
+### `.val();`
+
+To get the value of an input, you need to use the `val` method:
+
+```
+<!-- html -->
+<input id="myInput" value="get the milk" />
+```
+
+```
+$("myInput").val(); // get the milk
+```
