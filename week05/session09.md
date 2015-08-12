@@ -1,4 +1,4 @@
-# Thursday, July 30, 2015
+# Tuesday, July 28, 2015
 
 ## Objects
 Objects are containers of values, including functions, arrays, and other objects.
