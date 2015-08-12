@@ -1,3 +1,34 @@
+## Sass
+
+#### Partials & Imports
+
+`_reset.scss` - Normalize?
+
+```css
+@import 'reset';
+
+body {
+  font-size: 100% Helvetica, sans-serif;
+  background-color: #efefef;
+}
+```
+
+#### Operators
+
+```css
+.container { width: 100%; }
+
+article[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+
+aside[role="complimentary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+}
+```
+
 # JS 101
 
 ## JavaScript Syntax
